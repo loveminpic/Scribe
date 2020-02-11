@@ -26,6 +26,7 @@
 		0459CECB23F0E398002FF7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0459CECD23F0E398002FF7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0459CED623F0EFBA002FF7DD /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = Scribe/CircleButton.swift; sourceTree = SOURCE_ROOT; };
+		04753AF723F34ABB006D5F14 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		0459CEBE23F0E392002FF7DD /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				04753AF823F34AD1006D5F14 /* Resources */,
 				0459CED523F0EF3C002FF7DD /* Controller */,
 				0459CED423F0EDE9002FF7DD /* View */,
 				0459CED323F0EDD6002FF7DD /* Model */,
@@ -92,6 +94,14 @@
 				0459CEC323F0E392002FF7DD /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		04753AF823F34AD1006D5F14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04753AF723F34ABB006D5F14 /* test.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

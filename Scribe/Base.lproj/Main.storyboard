@@ -39,6 +39,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playBtnpress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="udp-bt-Pc0"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="YOP-sb-2hm">
                                 <rect key="frame" x="157" y="548" width="60" height="60"/>
@@ -82,6 +85,10 @@ the audio embedded in this app.</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="activitySpinner" destination="YOP-sb-2hm" id="VTi-GB-Xch"/>
+                        <outlet property="transcriptionTextField" destination="Zef-H0-Iiz" id="L4u-91-nzh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
